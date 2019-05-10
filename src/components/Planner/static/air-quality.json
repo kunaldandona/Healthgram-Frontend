@@ -1,0 +1,58 @@
+[
+ {
+ "aqi": [0,50],
+ "level": "good",
+ "risk": "low",
+ "info": {
+  "general_population": "With this level of air quality, you have no limitations. Enjoy the outdoors!",
+  "elderly": "If you start to feel respiratory discomfort such as coughing or breathing difficulties, consider reducing the intensity of your outdoor activities. Try to limit the time you spend near busy roads, construction sites, open fires and other sources of smoke.",
+  "lung_diseases": "If you start to feel respiratory discomfort such as coughing or breathing difficulties, consider reducing the intensity of your outdoor activities. Try to limit the time you spend near busy roads, industrial emission stacks, open fires and other sources of smoke.",
+  "heart_diseases": "If you start to feel respiratory discomfort such as coughing or breathing difficulties, consider reducing the intensity of your outdoor activities. Try to limit the time you spend near busy roads, construction sites, industrial emission stacks, open fires and other sources of smoke.",
+  "active": "If you start to feel respiratory discomfort such as coughing or breathing difficulties, consider reducing the intensity of your outdoor activities. Try to limit the time you spend near busy roads, construction sites, industrial emission stacks, open fires and other sources of smoke.",
+  "pregnant_women": "To keep you and your baby healthy, consider reducing the intensity of your outdoor activities. Try to limit the time you spend near busy roads, construction sites, open fires and other sources of smoke.",
+  "children": "If you start to feel respiratory discomfort such as coughing or breathing difficulties, consider reducing the intensity of your outdoor activities. Try to limit the time you spend near busy roads, construction sites, open fires and other sources of smoke."
+  }
+ },
+{
+ "aqi": [51,100],
+ "level": "moderate",
+ "risk": "moderate",
+ "info": {
+   "general_population": "If you start to feel respiratory discomfort such as coughing or breathing difficulties, consider reducing the intensity of your outdoor activities. Try to limit the time you spend near busy roads, construction sites, open fires and other sources of smoke.",
+   "elderly": "Reduce the intensity of your outdoor activities. It is recommended to limit the time you are near busy roads, construction sites, open fires and other sources of smoke. Staying indoors with an activated air filtration system would be best for your long term health.",
+   "lung_diseases": "Reduce the intensity of your outdoor activities. Keep relevant medication(s) available and consult a doctor with any questions. It is recommended to limit the time you are near busy roads, open fires and other sources of smoke. In addition, consider reducing the time you spend near industrial emission stacks. Staying indoors with an activated air filtration system would be best for your long term health.",
+   "heart_diseases": "Reduce the intensity of your outdoor activities. Keep relevant medication(s) available and consult a doctor with any questions. It is recommended to limit the time you are near busy roads, construction sites, open fires and other sources of smoke. In addition, consider reducing the time you spend near industrial emission stacks. Staying indoors with an activated air filtration system would be best for your long term health.",
+   "active": "Reduce the intensity of your outdoor activities. It is recommended to limit the time you are near busy roads, construction sites, open fires and other sources of smoke. In addition, consider reducing the time you spend near industrial emission stacks. Staying indoors with an activated air filtration system would be best for your long term health.",
+   "pregnant_women": "To keep you and your baby healthy, reduce the intensity of your outdoor activities. It is recommended to limit the time you are near busy roads, construction sites, open fires and other sources of smoke. Staying indoors with an activated air filtration system would be best for your long term health.",
+   "children": "Reduce the intensity of your outdoor activities. It is recommended to limit the time you are near busy roads, construction sites, open fires and other sources of smoke. Staying indoors with an activated air filtration system would be best for your long term health."
+  } 
+ },
+{
+ "aqi": [101,150],
+ "level": "Unhealthy for sensitive group",
+ "risk": "moderate",
+ "info": {
+  "general_population": "Reduce the intensity of your outdoor activities. It is recommended to limit the time you are near busy roads, construction sites, open fires and other sources of smoke. Staying indoors with an activated air filtration system would be best for your long term health.",
+  "elderly": "The current level of air quality is likely to affect your health. You are advised to avoid intense activities outdoors and stay away from sources of pollution, such as busy roads, open fires and industrial sites. Staying indoors with an activated air filtration system would be best for your long term health.",
+  "lung_diseases": "The current level of air quality is likely to affect your health. As a precaution, keep relevant medication(s) available. You are advised to avoid intense activities outdoors and stay away from sources of pollution, such as busy roads, open fires and industrial sites. Staying indoors with an activated air filtration system would be best for your long term health.",
+  "heart_diseases": "The current level of air quality is likely to affect your health. As a precaution, keep relevant medication(s) available. You are advised to avoid intense activities outdoors and stay away from sources of pollution, such as busy roads, open fires and industrial sites. Staying indoors with an activated air filtration system would be best for your long term health.",
+  "active": "The current level of air quality is likely to affect your health. You are advised to avoid intense activities outdoors and stay away from sources of pollution, such as busy roads, open fires and industrial sites. Staying indoors with an activated air filtration system would be best for your long term health.",
+  "pregnant_women": "The current level of air quality is likely to affect you and your baby's health. You are advised to avoid intense activities outdoors and stay away from sources of pollution, such as busy roads, open fires and industrial sites. Staying indoors with an activated air filtration system would be best for your long term health.",
+  "children": "The current level of air quality is likely to affect your health. You are advised to avoid intense activities outdoors and stay away from sources of pollution, such as busy roads, open fires and industrial sites. Staying indoors with an activated air filtration system would be best for your long term health."
+  }
+ },
+ {
+ "aqi": [151,200],
+ "level": "Unhealthy",
+ "risk": "high",
+ "info": {
+   "general_population": "Reduce the intensity of your outdoor activities. It is recommended to limit the time you are near busy roads, construction sites, open fires and other sources of smoke. Staying indoors with an activated air filtration system would be best for your long term health.",
+   "elderly": "The current level of air quality is likely to affect your health. You are advised to avoid intense activities outdoors and stay away from sources of pollution, such as busy roads, open fires and industrial sites. Staying indoors with an activated air filtration system would be best for your long term health.",
+   "lung_diseases": "The current level of air quality is likely to affect your health. As a precaution, keep relevant medication(s) available. You are advised to avoid intense activities outdoors and stay away from sources of pollution, such as busy roads, open fires and industrial sites. Staying indoors with an activated air filtration system would be best for your long term health.",
+   "heart_diseases": "The current level of air quality is likely to affect your health. As a precaution, keep relevant medication(s) available. You are advised to avoid intense activities outdoors and stay away from sources of pollution, such as busy roads, open fires and industrial sites. Staying indoors with an activated air filtration system would be best for your long term health.",
+   "active": "The current level of air quality is likely to affect your health. You are advised to avoid intense activities outdoors and stay away from sources of pollution, such as busy roads, open fires and industrial sites. Staying indoors with an activated air filtration system would be best for your long term health.",
+   "pregnant_women": "The current level of air quality is likely to affect you and your baby's health. You are advised to avoid intense activities outdoors and stay away from sources of pollution, such as busy roads, open fires and industrial sites. Staying indoors with an activated air filtration system would be best for your long term health.",
+   "children": "The current level of air quality is likely to affect your health. You are advised to avoid intense activities outdoors and stay away from sources of pollution, such as busy roads, open fires and industrial sites. Staying indoors with an activated air filtration system would be best for your long term health."
+  }
+ }
+]

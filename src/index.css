@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+
+h1 ,h2, h3, h4, h5, p, a,span, button,label, input, input::placeholder, textarea{
+    font-family: 'Montserrat', sans-serif !important;
+}

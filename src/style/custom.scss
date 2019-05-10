@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,900");
+$font-family: "Montserrat", sans-serif !important;
+$primary: #0079ff;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": #2b30c9,
+  "success": #89e8b0,
+  "info": #ffc371,
+  "warning": #ff5e62
+);
+
+.App{
+  overflow-x: hidden;
+  line-height: 2rem;
+}
+
+body {
+  font-family: $font-family;
+}
+button {
+  margin: 5px;
+  border-radius: 50px !important;
+  padding: 8px 20px !important;
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+.row:not(.mapContainer) {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px 0;
+}
+
+h1,
+h2 {
+  font-weight: 900 !important;
+}
+
+h1{
+  color: $primary !important;
+}
+
+h1+p{
+  margin-top: 1.5rem;
+}
+
+.current{
+  color: $primary !important;
+}
+
+.sCard, .pCard{
+  p{
+    max-width: 280px;
+    margin: 0 auto !important;
+  }
+}
+
+.chartContainter h1,
+.airContainter h1 {
+  text-align: center;
+}
+
+.plannerLanding {
+  h1{
+    color: black !important;
+  }
+  .landing {
+    min-height: 90vh;
+    padding: 0;
+    margin: 0;
+    margin-top: -50px;
+
+    h1 {
+      text-align: left;
+    }
+    img {
+      width: 100%;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    button {
+      margin-right: 10px;
+    }
+    .btn-primary:hover{
+      background: none;
+      border: 1px solid $primary;
+      color: $primary;
+    }
+  }
+}
+.planner{
+  min-height: 100vh;
+}
+
+.mapContainer {
+  display: flex;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  form {
+    position: absolute;
+    z-index: 999;
+    margin-top: -40px;
+
+    div{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    strong {
+      color: white;
+      text-align: center;
+      width: 100%;
+      display: block;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    input {
+      background: none;
+      color: white;
+      border: 1px solid white;
+      border-radius: 20px;
+      text-align: center;
+      width: 200px;
+      text-align: center;
+      margin-bottom: 20px;
+      height: 35px;
+
+      &:focus {
+        border-color: $primary;
+        outline: none;
+      }
+    }
+    button {
+      display: block;
+      margin-left: 10px;
+      padding-top: 4px !important;
+      padding-bottom: 4px !important;
+      height: 36px;
+    }
+  }
+  #map {
+    width: 100%;
+    height: 100%;
+  }
+}
+.chartContainter {
+  margin-top: 100px !important;
+    
+  h1{
+    color: black !important;
+  }
+  .chartDisplay {
+    height: 300px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+  form div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  strong {
+    text-align: center;
+    display: block;
+  }
+  button {
+    margin: 5px 5px;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .recharts-surface {
+    overflow: visible;
+  }
+  .recharts-tooltip-label {
+    display: none;
+  }
+  .recharts-default-tooltip {
+    border-radius: 20px;
+    padding: 0 20px !important;
+    border: none !important;
+    background-color: $primary !important;
+  }
+  .recharts-tooltip-item-list li {
+    color: white !important;
+  }
+}
+.airContainter {
+  div:first-of-type {
+    margin-bottom: 30px;
+  }
+
+  h1{
+    color: black !important;
+  }
+
+  .airQualityContainer {
+    height: 200px;
+    width: 100%;
+
+    .recharts-responsive-container {
+      position: relative;
+    }
+    .aqinfo {
+      width: calc(100% - 30px);
+      text-align: center;
+      position: absolute;
+      bottom: 25px;
+
+      span {
+        display: block;
+        font-size: 20px;
+        line-height: 0px;
+      }
+      strong {
+        font-size: 60px;
+      }
+    }
+  }
+  .weatherContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 20px;
+
+    h4 {
+      margin-bottom: 10px;
+      text-align: center;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .text {
+      font-family: $font-family;
+    }
+    .value {
+      font-weight: 700;
+    }
+  }
+}
+
+.suggestion {
+  -webkit-box-shadow: 0px 3px 4px 3px rgba(219, 219, 219, 0.5);
+  -moz-box-shadow: 0px 3px 4px 3px rgba(219, 219, 219, 0.5);
+  box-shadow: 0px 3px 4px 3px rgba(219, 219, 219, 0.5);
+  margin-bottom: 20px;
+  padding: 50px 50px !important;
+  transition: all 1s;
+
+  display: grid;
+  grid-column-gap: 2%;
+  grid-template-columns: 28% 70%;
+
+  h1{
+    color: black !important;
+  }
+
+  @media only screen and (max-width: 768px) {
+    grid-template-columns: 100%;
+  }
+
+  h1 {
+    text-align: left;
+  }
+
+  .left {
+    display: grid;
+  }
+  img {
+    width: 70%;
+    align-self: end;
+    justify-self: center;
+  }
+  strong {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    display: block;
+  }
+  .right {
+    div {
+      padding-bottom: 10px;
+    }
+    ul {
+      list-style: none;
+      padding: 0 0 0 0px;
+    }
+    li:before {
+      content: "• ";
+      padding-right: 5px;
+      font-size: 30px;
+      line-height: 15px;
+      color: $primary;
+    }
+  }
+}
+
+.clinicListContainer {
+  h1 {
+    text-align: left;
+    color: black !important;
+
+  }
+  button {
+    svg {
+      margin-left: 5px;
+      margin-bottom: 2px;
+    }
+  }
+}
+
+.addPlan{
+  background: rgba(0, 0, 0, 0.8) url(../assets/addplan_bg.jpeg);
+  background-blend-mode: multiply;
+  background-size: cover;
+
+  margin: 0 !important;
+  padding: 60px 0 !important;
+
+  width: 100%;
+
+  div>div{
+    padding: 0;
+  }
+
+  h2, p, strong{
+    color: white;
+  }
+  .form{
+    width: 100%;
+  }
+  form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  input {
+    background: none;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    display: block;
+    width: 80%;
+
+    &:focus {
+      border-color: $primary;
+      outline: none;
+    }
+  }
+
+  button{
+    border-color: white;
+    color: white;
+  }
+}
+
+// hide google map control
+a[href^="http://maps.google.com/maps"]{display:none !important}
+a[href^="https://maps.google.com/maps"]{display:none !important}
+
+.gmnoprint a, .gmnoprint span, .gm-style-cc {
+    display:none;
+}
+.gmnoprint div {
+    display: none;
+}
+.gm-control-active{
+  display: none;
+}
+
+// Override default variables before the import
+
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap.scss";
